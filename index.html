@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<style>
+html, body {
+  width:  100%;
+  height: 100%;
+  margin: 0px;
+  overflow:hidden;
+}
+#background {
+  position: absolute;
+  border:0;
+  left: 0;
+  top: 0;
+  width:  100%;
+  height: auto;
+  margin: 0px;
+  z-index: 0;
+}
+#audioCanvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width:  100%;
+  height: auto;
+  margin: 0px;
+}
+</style>
+
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/configure.js"></script>
+<script type="text/javascript" src="js/audioArray.js"></script>
+<script type="text/javascript" src="js/character.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+<img id="background" />
+<canvas id="audioCanvas" width="1280" height="1024"></canvas>
+</body>
+</html>

@@ -1,0 +1,305 @@
+{
+	"file": "index.html",
+	"title": "Generic Character Center Spectrum (Louder Type)",
+	"general": {
+		"supportsaudioprocessing": true,
+		"properties": {
+			"backgroundImg": {
+				"text": "ui_backgroundImg",
+				"type": "file",
+				"order": -1
+			},
+			"colorCustom": {
+				"text": "ui_colorCustom",
+				"order": 0
+			},
+			"backColor": {
+				"text": "ui_backColor",
+				"type": "color",
+				"value": "0 0 0",
+				"order": 1
+			},
+			"emptyColor": {
+				"text": "ui_emptyColor",
+				"type": "color",
+				"value": "0.545098 0.9607843 0.8745098",
+				"order": 2
+			},
+			"fullColor": {
+				"text": "ui_fullColor",
+				"type": "color",
+				"value": "1 0.7215686 0.7686274",
+				"order": 3
+			},
+			"circleLineColor": {
+				"text": "ui_circleLineColor",
+				"type": "color",
+				"value": "1 1 0.549019",
+				"order": 4
+			},
+			"fillCircle": {
+				"text": "ui_fillCircle",
+				"type": "bool",
+				"value": false,
+				"order": 5
+			},
+			"circleFillColor": {
+				"text": "ui_circleFillColor",
+				"type": "color",
+				"value": "1 1 0.549019",
+				"order": 6
+			},
+			"glowEffect": {
+				"text": "ui_glowEffect",
+				"order": 100
+			},
+			"emptyGlowColor": {
+				"text": "ui_emptyGlowColor",
+				"type": "color",
+				"value": "0.545098 0.9607843 0.8745098",
+				"order": 101
+			},
+			"emptyGlowStrength": {
+				"text": "ui_emptyGlowStrength",
+				"type": "slider",
+				"value": 30,
+				"min": 0,
+				"max": 100,
+				"editable": true,
+				"order": 102
+			},
+			"fullGlowColor": {
+				"text": "ui_fullGlowColor",
+				"type": "color",
+				"value": "1 0.7215686 0.7686274",
+				"order": 103
+			},
+			"fullGlowStrength": {
+				"text": "ui_fullGlowStrength",
+				"type": "slider",
+				"value": 30,
+				"min": 0,
+				"max": 100,
+				"editable": true,
+				"order": 104
+			},
+			"circleGlowColor": {
+				"text": "ui_circleGlowColor",
+				"type": "color",
+				"value": "1 1 0.549019",
+				"order": 105
+			},
+			"circleGlowStrength": {
+				"text": "ui_circleGlowStrength",
+				"type": "slider",
+				"value": 30,
+				"min": 0,
+				"max": 100,
+				"editable": true,
+				"order": 106
+			},
+			"spectrumOption": {
+				"text": "ui_spectrumOption",
+				"order": 300
+			},
+			"useEnergyforSpectrumColor": {
+				"text": "ui_useEnergyforSpectrumColor",
+				"order": 301,
+				"type": "bool",
+				"value": true
+			},
+			"useLerp": {
+				"text": "ui_useLerp",
+				"type": "bool",
+				"value": false,
+				"order": 301
+			},
+			"lerpPower": {
+				"text": "ui_lerpPower",
+				"type": "slider",
+				"value": 50,
+				"min": 0,
+				"max": 100,
+				"editable": false,
+				"order": 302
+			},
+			"useClamp": {
+				"text": "ui_useClamp",
+				"type": "bool",
+				"value": false,
+				"order": 303
+			},
+			"spectrumWidth": {
+				"text": "ui_spectrumWidth",
+				"type": "slider",
+				"value": 15,
+				"min": 0,
+				"max": 100,
+				"editable": true,
+				"order": 304
+			},
+			"spectrumScale": {
+				"text": "ui_spectrumScale",
+				"type": "slider",
+				"value": 100,
+				"min": 0,
+				"max": 800,
+				"editable": true,
+				"order": 305
+			},
+			"energy": {
+				"text": "ui_energy",
+				"order": 350
+			},
+			"energySensitivity": {
+				"text": "ui_energy_sensitivity",
+				"order": 351,
+				"type": "slider",
+				"value": 100,
+				"min": 0,
+				"max": 500
+			},
+			"energyCapacity": {
+				"text": "ui_energy_capacity",
+				"order": 352,
+				"type": "slider",
+				"value": 200,
+				"min": 0,
+				"max": 1000
+			},
+			"energyEfficiency": {
+				"text": "ui_energy_efficiency",
+				"order": 353,
+				"type": "slider",
+				"value": 200,
+				"min": 0,
+				"max": 1000
+			},
+			"energyKeeprate": {
+				"text": "ui_energy_keepRate",
+				"order": 354,
+				"type": "slider",
+				"value": 70,
+				"min": 0,
+				"max": 100
+			},
+			"character": {
+				"text": "ui_character",
+				"order": 400
+			},
+			"lightStrength": {
+				"text": "ui_lightStrength",
+				"order": 401,
+				"type": "slider",
+				"value": 200,
+				"min": 0,
+				"max": 1000
+			},
+			"characterAbove": {
+				"text": "ui_characterAbove",
+				"order": 402,
+				"type": "bool",
+				"value": true
+			},
+			"characterScale": {
+				"text": "ui_characterScale",
+				"order": 404,
+				"type": "slider",
+				"value": 35,
+				"min": 0,
+				"max": 200,
+				"editable": true
+			},
+			"characterPosX": {
+				"text": "ui_characterPosX",
+				"order": 405,
+				"type": "slider",
+				"value": 0,
+				"min": -500,
+				"max": 500,
+				"editable": true
+			},
+			"characterPosY": {
+				"text": "ui_characterPosY",
+				"order": 406,
+				"type": "slider",
+				"value": 0,
+				"min": -500,
+				"max": 500,
+				"editable": true
+			}
+		},
+		"localization": {
+			"en-us": {
+				"ui_backgroundImg": "Background Image",
+				"ui_colorCustom": "<h4>Customize Color</h4>",
+				"ui_backColor": "Background color",
+				"ui_emptyColor": "Empty color",
+				"ui_fullColor": "Full color",
+				"ui_circleLineColor": "Circle line color",
+				"ui_fillCircle": "Fill circle",
+				"ui_circleFillColor": "Circle fill color",
+				"ui_glowEffect": "<h4>Glow effect</h4>",
+				"ui_emptyGlowColor": "Spectrum glow color (empty)",
+				"ui_emptyGlowStrength": "Spectrum glow strength (empty)",
+				"ui_fullGlowColor": "Spectrum glow color (full)",
+				"ui_fullGlowStrength": "Spectrum glow strength (full)",
+				"ui_circleGlowColor": "Circle Spectrum Glow Color",
+				"ui_circleGlowStrength": "Circle Spectrum",
+				"ui_spectrumOption": "<h4>Spectrum Option</h4>",
+				"ui_useEnergyforSpectrumColor": "Use energy for spectrum color",
+				"ui_useLerp": "Use lerp for Spectrum",
+				"ui_lerpPower": "Lerp power",
+				"ui_useClamp": "Clamp Spectrum",
+				"ui_spectrumWidth": "Spectrum width",
+				"ui_spectrumScale": "Spectrum scale",
+				"ui_energy": "<h4>Energy</h4>",
+				"ui_energy_sensitivity": "Energy fill sensitivity",
+				"ui_energy_capacity": "Energy capacity",
+				"ui_energy_efficiency": "Energy efficiency",
+				"ui_energy_keepRate": "Energy keep rate",
+				"ui_character": "<h4>Character</h4>",
+				"ui_lightStrength": "Light strength",
+				"ui_characterAbove": "Draw Character above spectrum",
+				"ui_characterScale": "Character Scale",
+				"ui_characterPosX": "Character Position X",
+				"ui_characterPosY": "Character Position Y"
+			},
+			"ko-kr": {
+				"ui_backgroundImg": "배경 이미지",
+				"ui_colorCustom": "<h4>색</h4>",
+				"ui_backColor": "배경색",
+				"ui_emptyColor": "게이지가 없을때 색",
+				"ui_fullColor": "게이지가 회복되었을때 색",
+				"ui_circleLineColor": "원 선색",
+				"ui_fillCircle": "원을 채우기",
+				"ui_circleFillColor": "원을 채울 색",
+				"ui_glowEffect": "<h4>반짝이는 효과</h4>",
+				"ui_emptyGlowColor": "게이지 없을때 스펙트럼의 반짝색",
+				"ui_emptyGlowStrength": "게이지 없을때 스펙트럼의 반짝세기",
+				"ui_fullGlowColor": "게이지 있을때 스펙트럼의 반짝색",
+				"ui_fullGlowStrength": "게이지 있을때 스펙트럼의 반짝세기",
+				"ui_circleGlowColor": "중앙원의 반짝색",
+				"ui_circleGlowStrength": "중앙원의 반짝세기",
+				"ui_spectrumOption": "<h4>스펙트럼</h4>",
+				"ui_useEnergyforSpectrumColor": "에너지를 스펙트럼 컬러 조정용으로 사용하기",
+				"ui_useLerp": "스펙트럼을 부드럽게",
+				"ui_lerpPower": "스펙트럼의 부드럽지 않은 정도",
+				"ui_useClamp": "스펙트럼 최대길이 제한",
+				"ui_spectrumWidth": "스펙트럼의 너비",
+				"ui_spectrumScale": "스펙트럼의 길이 배수",
+				"ui_energy": "<h4>에너지</h4>",
+				"ui_energy_sensitivity": "에너지가 차는 정도",
+				"ui_energy_capacity": "에너지를 채워야 하는 정도",
+				"ui_energy_efficiency": "개안시 에너지 사용 효율",
+				"ui_energy_keepRate": "개안시 에너지 유지 효율",
+				"ui_character": "<h4>캐릭터</h4>",
+				"ui_lightStrength": "빛의 세기",
+				"ui_characterAbove": "캐릭터를 스펙트럼 위에 그리기",
+				"ui_characterScale": "캐릭터의 크기",
+				"ui_characterPosX": "캐릭터의 가로위치",
+				"ui_characterPosY": "캐릭터의 세로위치"
+			}
+		}
+	}
+}
